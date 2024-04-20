@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.ded {
+    background-color: black;
+    color: gray;
+    margin: 100px; /* up or down with only 1 parameter */
+    padding: 6px; /* space around button */
+    font-size: 20px;
+    font-weight: bold;
+}

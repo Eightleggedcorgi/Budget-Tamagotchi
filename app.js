@@ -1,0 +1,1 @@
+const dedButton = document.querySelector(".button.ded")
