@@ -8,6 +8,10 @@ body {
     background-color: blueviolet;
 }
 
+img {
+    border: 2px solid black;
+}
+
 .fed {
     background-color: orange;
     color: yellow;
