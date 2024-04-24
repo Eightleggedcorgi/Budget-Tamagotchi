@@ -1,12 +1,49 @@
+/* head {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+} doesnt do anything. thanks css. */
+
 body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
+    background-color: blueviolet;
+}
+
+.fed {
+    background-color: orange;
+    color: yellow;
+    /* border: 1px solid red; */
+    margin: 20px; /* up or down with only 1 parameter */
+    padding: 5px; /* space around button */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rest {
+    background-color: blue;
+    color: lightblue;
+    /* border: 1px solid red; */
+    margin: 20px; /* up or down with only 1 parameter */
+    padding: 5px; /* space around button */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.play {
+    background-color: lightcoral;
+    color: #df1b94;
+    /* border: 1px solid red; */
+    margin: 20px; /* up or down with only 1 parameter */
+    padding: 5px; /* space around button */
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .ded {
     background-color: black;
     color: gray;
-    margin: 100px; /* up or down with only 1 parameter */
-    padding: 6px; /* space around button */
+    /* border: 1px solid red; */
+    margin: 20px; /* up or down with only 1 parameter */
+    padding: 5px; /* space around button */
     font-size: 20px;
     font-weight: bold;
 }
