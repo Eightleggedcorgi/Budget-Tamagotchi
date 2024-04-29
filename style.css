@@ -37,9 +37,8 @@ h3 {
   background-color: orange;
   color: yellow;
   border: 2px solid orangered;
-  /* border: 1px solid red; */
-  margin: 20px; /* up or down with only 1 parameter */
-  padding: 6px; /* space around button */
+  margin: 20px;
+  padding: 6px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -47,29 +46,46 @@ h3 {
 .rest {
     background-color: blue;
     color: lightblue;
-    /* border: 1px solid red; */
-    margin: 20px; /* up or down with only 1 parameter */
-    padding: 5px; /* space around button */
+    margin: 20px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.superrest {
+  background-color: blue;
+  color: lightblue;
+  border: 2px solid orangered;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .play {
     background-color: lightcoral;
     color: #df1b94;
-    /* border: 1px solid red; */
-    margin: 20px; /* up or down with only 1 parameter */
-    padding: 5px; /* space around button */
+    margin: 20px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.superplay {
+  background-color: lightcoral;
+  color: #df1b94;
+  border: 2px solid orangered;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .ded {
     background-color: black;
     color: gray;
-    /* border: 1px solid red; */
-    margin: 20px; /* up or down with only 1 parameter */
-    padding: 5px; /* space around button */
+    margin: 20px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
 }

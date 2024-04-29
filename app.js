@@ -46,6 +46,22 @@ document.querySelector(".js-superfed-button").onclick = function () {
     }
     updateHungDisplay();
 }
+document.querySelector(".js-superrest-button").onclick = function () {
+    alert("zzzzzZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
+    gatoSleep -= 3;
+    if (gatoSleep < 0) {
+        gatoSleep = 0;
+    }
+    updateTiredDisplay();
+}
+document.querySelector(".js-superplay-button").onclick = function () {
+    alert("WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"); //perfect length
+    gatoBored -= 3;
+    if (gatoBored < 0) {
+        gatoBored = 0;
+    }
+    updateBoredDisplay();
+}
 
 //visual counter operating code
     let counterHungDisplay = document.querySelector('.output1')
