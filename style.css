@@ -16,6 +16,10 @@ body {
 
 img {
     border: 2px solid black;
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    /* probably dont need padding */
 }
 
 h3 {
