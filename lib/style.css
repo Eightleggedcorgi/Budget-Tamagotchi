@@ -1,5 +1,5 @@
 html {
-  border: 2px solid black;
+  border: 6px solid black;
 }
 
 body {
@@ -31,8 +31,9 @@ h3 {
     background-color: orange;
     color: yellow;
     /* border: 1px solid red; */
-    margin: 20px; /* up or down with only 1 parameter */
+    margin: 10px; /* up or down with only 1 parameter */
     padding: 5px; /* space around button */
+    margin-left: 110px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -40,8 +41,9 @@ h3 {
 .superfed {
   background-color: orange;
   color: yellow;
-  border: 2px solid orangered;
+  border: 3px solid silver;
   margin: 20px;
+  margin-left: 70px;
   padding: 6px;
   font-size: 25px;
   font-weight: bold;
@@ -50,7 +52,7 @@ h3 {
 .rest {
     background-color: blue;
     color: lightblue;
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -59,7 +61,7 @@ h3 {
 .superrest {
   background-color: blue;
   color: lightblue;
-  border: 2px solid orangered;
+  border: 3px solid silver;
   margin: 20px;
   padding: 6px;
   font-size: 25px;
@@ -69,7 +71,7 @@ h3 {
 .play {
     background-color: lightcoral;
     color: #df1b94;
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -78,21 +80,46 @@ h3 {
 .superplay {
   background-color: lightcoral;
   color: #df1b94;
-  border: 2px solid orangered;
+  border: 3px solid silver;
   margin: 20px;
   padding: 6px;
   font-size: 25px;
   font-weight: bold;
 }
 
+.superres {
+  background-color: darkgreen;
+  color: chartreuse;
+  border: 3px solid gold;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .ded {
     background-color: black;
     color: gray;
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
 }
+
+.light {
+  background-color: rgb(17, 17, 17);
+  color: darkcyan;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .buttons {
+  margin-left: 3px;
+} div doesnt wanna do anything */
+
 
  /* .transform {
     background-color: thistle;
